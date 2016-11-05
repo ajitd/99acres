@@ -62,29 +62,7 @@ def scrape_post(city,starting_url):
 # retrieve a page
 #
 #Delhi All - 1
-#Bombay All - 12
-#Chennai All - 32
-#Hyderabad All - 38
-#Pune All - 19
 
 
 starting_url = 'http://www.99acres.com/do/quicksearch/search?search_type=QS&search_location=SH&city=1&preference=R&class[]=O'
 scrape_post('Delhi',starting_url)
-
-starting_url = 'http://www.99acres.com/do/quicksearch/search?search_type=QS&search_location=SH&city=12&preference=R&class[]=O'
-scrape_post('Mumbai',starting_url)
-
-starting_url = 'http://www.99acres.com/do/quicksearch/search?search_type=QS&search_location=SH&city=32&preference=R&class[]=O'
-scrape_post('Chennai',starting_url)
-
-starting_url = 'http://www.99acres.com/do/quicksearch/search?search_type=QS&search_location=SH&city=38&preference=R&class[]=O'
-scrape_post('Hyderabad',starting_url)
-
-starting_url = 'http://www.99acres.com/do/quicksearch/search?search_type=QS&search_location=SH&city=19&preference=R&class[]=O'
-scrape_post('Pune',starting_url)
-
-starting_url = 'http://www.99acres.com/do/quicksearch/search?search_type=QS&search_location=SH&city=20&preference=R&class[]=O'
-scrape_post('Bangalore',starting_url)
-
-starting_url = 'http://www.99acres.com/do/quicksearch/search?search_type=QS&search_location=SH&city=25&preference=R&class[]=O'
-scrape_post('Kolkata',starting_url)
